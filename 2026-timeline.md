@@ -16,7 +16,11 @@ It is recommended you come in-person to the onboarding meetings.
 
 ## Sept 8: KICKOFF
 
-## Sept 14: First Onboarding Meeting; ROOM ECSW 3.210 @ 5:30 PM
+## Sept 14: First onboarding meeting at ECSW3.210 @ 5:30 PM
+
+**Particularly for freshmen/sophomore getting introduced to circuit design and electrical theory (voltage, current, resistance, DC/AC, etc.) as a preparation for PCB design. It is still recommended that all onboarding members come. If you already understand these concepts, we will give you instructions to get ahead.**
+
+## Sept 21: First Onboarding Meeting; ROOM ECSW 3.210 @ 5:30 PM
 
 *Tasks due Sept 21*
 - READ DATASHEETS
@@ -24,7 +28,7 @@ It is recommended you come in-person to the onboarding meetings.
 - If you have a problem, try using Google. Only after then, contact a team member
 - Firmware people read chapter 0/1 of onboarding
 
-## Sept 21: First Deliverables
+## Sept 28: First Deliverables
 
 *Tasks due Sept 28*
 - READ DATASHEETS
@@ -32,7 +36,7 @@ It is recommended you come in-person to the onboarding meetings.
 - Do initial PCB on KiCAD / Altium
 - Firmware people read chapter 2 of onboarding & do github tasks
 
-## Sept 28: Split into groups 
+## Oct 5: Split into groups 
 
 **A inter-disciplinary (i.e. both electrical and firmware) project will be assigned this week, due ~1 month after**
 
@@ -43,7 +47,7 @@ It is recommended you come in-person to the onboarding meetings.
 - Each person set up their own schematic, when they convene they present to each other?
 - Firmware people do chapter 3 and tasks
 
-## Oct 5: Present their schematic(s) to Presley or John
+## Oct 12: Present their schematic(s) to Presley or John
 
 **Doesn't have to be finished, but have a decent amount of work done**
 
@@ -51,7 +55,7 @@ It is recommended you come in-person to the onboarding meetings.
 - Initial PCB (READ DATASHEETS)
 - Firmware people do chapter 4 and start planning/researching on firmware for the DAQ board
 
-## Oct 12: Initial PCB
+## Oct 19: Initial PCB
 
 **Present initial PCBs to John or Presley**
 
@@ -59,9 +63,9 @@ It is recommended you come in-person to the onboarding meetings.
 - Improve and revise board
 - Firmware people do chapter 5 and continue firmware for the DAQ board
 
-## Oct 19: PCB Revisions
+## Oct 26: PCB Revisions
 
-*Tasks due November 1 (or earlier if possible)*
+*Tasks due November 9 (or earlier if possible)*
 - Finish board
 - Finish firmware for the board
 
