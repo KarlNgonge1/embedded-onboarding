@@ -16,7 +16,7 @@ Delete the generated definition within the C file. Rewrite your own definition o
 
 Do the exact same for `void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState)` and `void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)`.
 
-## Exercise 2: DIY HAL in Asm
+## Exercise 2 (OPTIONAL): DIY HAL in Asm
 
 Write your own GPIO Init, GPIO toggle, and HAL Delay in assembly. The total length of the assembly file should not more than 70 lines.
 
