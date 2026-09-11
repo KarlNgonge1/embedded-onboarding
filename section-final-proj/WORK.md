@@ -26,4 +26,6 @@ On top of this, it would be a good idea to read the rest of the sections in this
 
 The interview is not high-stress, we'll just ask you some questions about projects you've done in the past and what you'd like to work on.
 
+If you don't wish to do this project (or feel it's **completely** out of your skill area at this time), you're more than welcome to do the normal onboarding process.
+
 Good luck!!
