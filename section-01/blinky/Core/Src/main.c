@@ -96,19 +96,20 @@ int main(void) {
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1) {
-    /* USER CODE END WHILE */
-
-    /**
-
-    Blinky exercise: 
-
-
-    Don't write code outside the while loop.
 
     
-    Delete this comment and write your code here.
     
-    */
+
+    //Blinky exercise: 
+
+
+    HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+
+    HAL_Delay(500);
+
+    HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+
+    HAL_Delay(500);
 
     /* USER CODE BEGIN 3 */
   }
@@ -230,6 +231,11 @@ void Error_Handler(void) {
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
   while (1) {
+
+    
+
+
+
   }
   /* USER CODE END Error_Handler_Debug */
 }
