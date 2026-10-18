@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
   29:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****        devices contains the following additional features
   30:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
   31:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****        (+) Possibility to disable or enable Analog Noise Filter
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 2
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 2
 
 
   32:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****        (+) Use of a configured Digital Noise Filter
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
   86:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @{
   87:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   */
   88:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 3
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 3
 
 
   89:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
   63 001a 1C3B     		subs	r3, r3, #28
   64 001c 4125     		movs	r5, #65
   65 001e 4355     		strb	r3, [r0, r5]
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 4
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 4
 
 
  108:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  104              		.loc 1 123 5 view .LVU28
  124:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
  125:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****     return HAL_OK;
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 5
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 5
 
 
  105              		.loc 1 125 5 view .LVU29
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  139:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   */
  140:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** HAL_StatusTypeDef HAL_I2CEx_ConfigDigitalFilter(I2C_HandleTypeDef *hi2c, uint32_t DigitalFilter)
  141:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** {
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 6
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 6
 
 
  144              		.loc 1 141 1 is_stmt 1 view -0
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  183              		.loc 1 156 5 is_stmt 1 view .LVU50
  184 0020 0468     		ldr	r4, [r0]
  185 0022 2368     		ldr	r3, [r4]
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 7
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 7
 
 
  186 0024 9343     		bics	r3, r2
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  221              		.loc 1 175 5 is_stmt 1 view .LVU65
  222              		.loc 1 175 5 view .LVU66
  223 0042 0023     		movs	r3, #0
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 8
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 8
 
 
  224 0044 6246     		mov	r2, ip
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  186:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   */
  187:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** #if defined(I2C_CR1_WUPEN)
  188:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 9
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 9
 
 
  189:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** /** @defgroup I2CEx_Exported_Functions_Group2 WakeUp Mode Functions
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  243:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @brief  Disable I2C wakeup from Stop mode(s).
  244:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @param  hi2c Pointer to a I2C_HandleTypeDef structure that contains
  245:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   *                the configuration information for the specified I2Cx peripheral.
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 10
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 10
 
 
  246:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @retval HAL status
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  300:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @brief Enable the I2C fast mode plus driving capability.
  301:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @param ConfigFastModePlus Selects the pin.
  302:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   *   This parameter can be one of the @ref I2CEx_FastModePlus values
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 11
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 11
 
 
  303:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @note  For I2C1, fast mode plus driving capability can be enabled on all selected
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  300              		@ sp needed
  301 001e 7047     		bx	lr
  302              	.L15:
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 12
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 12
 
 
  303              		.align	2
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  338 000a 9161     		str	r1, [r2, #24]
  339              		.loc 1 343 3 view .LVU92
  340 000c 9269     		ldr	r2, [r2, #24]
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 13
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 13
 
 
  341 000e 1340     		ands	r3, r2
@@ -755,22 +755,22 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 1
  369              		.file 5 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h"
  370              		.file 6 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h"
  371              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h"
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s 			page 14
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f0xx_hal_i2c_ex.c
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:19     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 HAL_I2CEx_ConfigAnalogFilter
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:130    .text.HAL_I2CEx_ConfigAnalogFilter:00000058 $d
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:135    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:141    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 HAL_I2CEx_ConfigDigitalFilter
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:252    .text.HAL_I2CEx_ConfigDigitalFilter:00000054 $d
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:257    .text.HAL_I2CEx_EnableFastModePlus:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:263    .text.HAL_I2CEx_EnableFastModePlus:00000000 HAL_I2CEx_EnableFastModePlus
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:305    .text.HAL_I2CEx_EnableFastModePlus:00000020 $d
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:311    .text.HAL_I2CEx_DisableFastModePlus:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:317    .text.HAL_I2CEx_DisableFastModePlus:00000000 HAL_I2CEx_DisableFastModePlus
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc1PthhW.s:359    .text.HAL_I2CEx_DisableFastModePlus:00000020 $d
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:19     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 HAL_I2CEx_ConfigAnalogFilter
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:130    .text.HAL_I2CEx_ConfigAnalogFilter:00000058 $d
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:135    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:141    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 HAL_I2CEx_ConfigDigitalFilter
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:252    .text.HAL_I2CEx_ConfigDigitalFilter:00000054 $d
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:257    .text.HAL_I2CEx_EnableFastModePlus:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:263    .text.HAL_I2CEx_EnableFastModePlus:00000000 HAL_I2CEx_EnableFastModePlus
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:305    .text.HAL_I2CEx_EnableFastModePlus:00000020 $d
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:311    .text.HAL_I2CEx_DisableFastModePlus:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:317    .text.HAL_I2CEx_DisableFastModePlus:00000000 HAL_I2CEx_DisableFastModePlus
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccGcLR6p.s:359    .text.HAL_I2CEx_DisableFastModePlus:00000020 $d
 
 NO UNDEFINED SYMBOLS

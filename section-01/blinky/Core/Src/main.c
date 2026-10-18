@@ -88,6 +88,7 @@ int main(void) {
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
@@ -103,13 +104,7 @@ int main(void) {
     //Blinky exercise: 
 
 
-    HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
-
-    HAL_Delay(500);
-
-    HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-
-    HAL_Delay(500);
+    
 
     /* USER CODE BEGIN 3 */
   }
@@ -214,11 +209,23 @@ static void MX_GPIO_Init(void) {
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LD2_GPIO_Port, &GPIO_InitStruct);
 
+  HAL_NVIC_SetPriority(EXTI4_15_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
+
+
   /* USER CODE BEGIN MX_GPIO_Init_2 */
   /* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    if (GPIO_Pin == B1_Pin)
+    {
+        HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+    }
+}
 
 /* USER CODE END 4 */
 

@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
   29:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** 
   30:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** #ifdef HAL_RCC_MODULE_ENABLED
   31:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** 
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 2
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 2
 
 
   32:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** /** @defgroup RCCEx RCCEx
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
   86:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   */
   87:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** 
   88:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** /**
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 3
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 3
 
 
   89:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   * @brief  Initializes the RCC extended peripherals clocks according to the specified
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  115:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****     
  116:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****     FlagStatus       pwrclkchanged = RESET;
   56              		.loc 1 116 5 view .LVU9
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 4
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 4
 
 
   57              	.LVL2:
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  129:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       /* Enable write access to Backup domain */
  130:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       SET_BIT(PWR->CR, PWR_CR_DBP);
  131:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 5
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 5
 
 
  132:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       /* Wait for Backup domain Write protection disable */
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  133 0058 186A     		ldr	r0, [r3, #32]
  134 005a 8446     		mov	ip, r0
  135 005c 8020     		movs	r0, #128
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 6
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 6
 
 
  136 005e 4002     		lsls	r0, r0, #9
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  166              	.LVL10:
  167              	.L2:
  168              		.loc 1 175 7 view .LVU45
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 7
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 7
 
 
  169              	.LBE2:
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  213:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****     __HAL_RCC_USART3_CONFIG(PeriphClkInit->Usart3ClockSelection);
  214:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   }
  215:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** #endif /* STM32F091xC || STM32F098xx */  
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 8
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 8
 
 
  216:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** 
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  255:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****        /* STM32F091xC || STM32F098xx */
  256:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   
  257:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   return HAL_OK;
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 9
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 9
 
 
  201              		.loc 1 257 10 is_stmt 0 view .LVU56
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  244              		.loc 1 137 27 discriminator 1 view .LVU68
  245 00d8 401B     		subs	r0, r0, r5
  137:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****         {
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 10
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 10
 
 
  246              		.loc 1 137 11 discriminator 1 view .LVU69
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  286 0100 D369     		ldr	r3, [r2, #28]
  287 0102 0849     		ldr	r1, .L23+20
  288 0104 0B40     		ands	r3, r1
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 11
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 11
 
 
  289 0106 D361     		str	r3, [r2, #28]
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  273:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   /* Get the RTC configuration --------------------------------------------*/
  274:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   PeriphClkInit->RTCClockSelection = __HAL_RCC_GET_RTC_SOURCE();
  329              		.loc 1 274 3 is_stmt 1 view .LVU89
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 12
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 12
 
 
  330              		.loc 1 274 38 is_stmt 0 view .LVU90
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  307:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c **** #endif /* STM32F042x6 || STM32F048xx ||                */
  308:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****        /* STM32F051x8 || STM32F058xx ||                */
  309:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****        /* STM32F071xB || STM32F072xB || STM32F078xx || */
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 13
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 13
 
 
  310:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****        /* STM32F091xC || STM32F098xx */
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  345:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   @endif
  346:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   @if STM32F072xB
  347:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_USART2  USART2 peripheral clock
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 14
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 14
 
 
  348:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_USB     USB peripheral clock
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  393 000c 03D0     		beq	.L30
  394 000e 0128     		cmp	r0, #1
  395 0010 2BD0     		beq	.L31
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 15
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 15
 
 
  396 0012 0020     		movs	r0, #0
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  433:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   case RCC_PERIPHCLK_USART2:
  434:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****     {
  435:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       /* Get the current USART2 source */
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 16
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 16
 
 
  436:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       srcclk = __HAL_RCC_GET_USART2_SOURCE();
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  490:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****   case RCC_PERIPHCLK_I2C1:
  491:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****     {
  492:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       /* Get the current I2C1 source */
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 17
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 17
 
 
  493:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       srcclk = __HAL_RCC_GET_I2C1_SOURCE();
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  547:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       else if ((srcclk == RCC_USBCLKSOURCE_HSI48) && (HAL_IS_BIT_SET(RCC->CR2, RCC_CR2_HSI48RDY)))
  548:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       {
  549:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****         frequency = HSI48_VALUE;
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 18
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 18
 
 
  550:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       }
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  417 0024 9342     		cmp	r3, r2
  418 0026 09D0     		beq	.L46
  419              	.L33:
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 19
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 19
 
 
  394:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       {
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  461 0052 2148     		ldr	r0, .L53+4
  462              	.LVL33:
  396:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       }
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 20
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 20
 
 
  463              		.loc 1 396 19 view .LVU124
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  504              		.loc 1 421 12 is_stmt 1 view .LVU137
  421:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       {
  505              		.loc 1 421 15 is_stmt 0 view .LVU138
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 21
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 21
 
 
  506 007c 0129     		cmp	r1, #1
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  546              	.LVL46:
  547              	.L52:
  426:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c ****       {
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 22
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 22
 
 
  548              		.loc 1 426 56 discriminator 1 view .LVU153
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  589              		.loc 1 498 19 view .LVU166
  590 00ca 0548     		ldr	r0, .L53+12
  591 00cc A2E7     		b	.L28
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 23
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 23
 
 
  592              	.LVL53:
@@ -1351,20 +1351,20 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 1
  617              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h"
  618              		.file 8 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h"
  619              		.file 9 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s 			page 24
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f0xx_hal_rcc_ex.c
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:19     .text.HAL_RCCEx_PeriphCLKConfig:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:25     .text.HAL_RCCEx_PeriphCLKConfig:00000000 HAL_RCCEx_PeriphCLKConfig
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:301    .text.HAL_RCCEx_PeriphCLKConfig:00000110 $d
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:311    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:317    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 HAL_RCCEx_GetPeriphCLKConfig
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:358    .text.HAL_RCCEx_GetPeriphCLKConfig:00000024 $d
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:364    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:370    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 HAL_RCCEx_GetPeriphCLKFreq
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccJxo3go.s:603    .text.HAL_RCCEx_GetPeriphCLKFreq:000000d4 $d
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:19     .text.HAL_RCCEx_PeriphCLKConfig:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:25     .text.HAL_RCCEx_PeriphCLKConfig:00000000 HAL_RCCEx_PeriphCLKConfig
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:301    .text.HAL_RCCEx_PeriphCLKConfig:00000110 $d
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:311    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:317    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 HAL_RCCEx_GetPeriphCLKConfig
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:358    .text.HAL_RCCEx_GetPeriphCLKConfig:00000024 $d
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:364    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:370    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 HAL_RCCEx_GetPeriphCLKFreq
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccLgVwa3.s:603    .text.HAL_RCCEx_GetPeriphCLKFreq:000000d4 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

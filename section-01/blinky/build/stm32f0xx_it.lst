@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 1
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 1
   30:Core/Src/stm32f0xx_it.c **** /* USER CODE END TD */
   31:Core/Src/stm32f0xx_it.c **** 
   32:Core/Src/stm32f0xx_it.c **** /* Private define ------------------------------------------------------------*/
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 2
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s 			page 2
 
 
   33:Core/Src/stm32f0xx_it.c **** /* USER CODE BEGIN PD */
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 1
   75:Core/Src/stm32f0xx_it.c ****   {
   36              		.loc 1 75 10 view .LVU3
   37 0000 FEE7     		b	.L2
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 3
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s 			page 3
 
 
   38              		.cfi_endproc
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 1
  100:Core/Src/stm32f0xx_it.c **** {
   73              		.loc 1 100 1 view -0
   74              		.cfi_startproc
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 4
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s 			page 4
 
 
   75              		@ args = 0, pretend = 0, frame = 0
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 1
  121:Core/Src/stm32f0xx_it.c **** 
  122:Core/Src/stm32f0xx_it.c **** /**
  123:Core/Src/stm32f0xx_it.c ****   * @brief This function handles System tick timer.
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 5
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s 			page 5
 
 
  124:Core/Src/stm32f0xx_it.c ****   */
@@ -269,24 +269,74 @@ ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 1
  127 0006 10BD     		pop	{r4, pc}
  128              		.cfi_endproc
  129              	.LFE44:
- 131              		.text
- 132              	.Letext0:
- 133              		.file 2 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
-ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s 			page 6
+ 131              		.section	.text.EXTI4_15_IRQHandler,"ax",%progbits
+ 132              		.align	1
+ 133              		.global	EXTI4_15_IRQHandler
+ 134              		.syntax unified
+ 135              		.code	16
+ 136              		.thumb_func
+ 138              	EXTI4_15_IRQHandler:
+ 139              	.LFB45:
+ 135:Core/Src/stm32f0xx_it.c **** 
+ 136:Core/Src/stm32f0xx_it.c **** /******************************************************************************/
+ 137:Core/Src/stm32f0xx_it.c **** /* STM32F0xx Peripheral Interrupt Handlers                                    */
+ 138:Core/Src/stm32f0xx_it.c **** /* Add here the Interrupt Handlers for the used peripherals.                  */
+ 139:Core/Src/stm32f0xx_it.c **** /* For the available peripheral interrupt handler names,                      */
+ 140:Core/Src/stm32f0xx_it.c **** /* please refer to the startup file (startup_stm32f0xx.s).                    */
+ 141:Core/Src/stm32f0xx_it.c **** /******************************************************************************/
+ 142:Core/Src/stm32f0xx_it.c **** 
+ 143:Core/Src/stm32f0xx_it.c **** /* USER CODE BEGIN 1 */
+ 144:Core/Src/stm32f0xx_it.c **** 
+ 145:Core/Src/stm32f0xx_it.c **** void EXTI4_15_IRQHandler(void)
+ 146:Core/Src/stm32f0xx_it.c **** {
+ 140              		.loc 1 146 1 is_stmt 1 view -0
+ 141              		.cfi_startproc
+ 142              		@ args = 0, pretend = 0, frame = 0
+ 143              		@ frame_needed = 0, uses_anonymous_args = 0
+ 144 0000 10B5     		push	{r4, lr}
+ 145              	.LCFI1:
+ 146              		.cfi_def_cfa_offset 8
+ 147              		.cfi_offset 4, -8
+ 148              		.cfi_offset 14, -4
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s 			page 6
+
+
+ 147:Core/Src/stm32f0xx_it.c ****   HAL_GPIO_EXTI_IRQHandler(B1_Pin);
+ 149              		.loc 1 147 3 view .LVU16
+ 150 0002 8020     		movs	r0, #128
+ 151 0004 8001     		lsls	r0, r0, #6
+ 152 0006 FFF7FEFF 		bl	HAL_GPIO_EXTI_IRQHandler
+ 153              	.LVL1:
+ 148:Core/Src/stm32f0xx_it.c **** }
+ 154              		.loc 1 148 1 is_stmt 0 view .LVU17
+ 155              		@ sp needed
+ 156 000a 10BD     		pop	{r4, pc}
+ 157              		.cfi_endproc
+ 158              	.LFE45:
+ 160              		.text
+ 161              	.Letext0:
+ 162              		.file 2 "/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_defa
+ 163              		.file 3 "/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h
+ 164              		.file 4 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h"
+ 165              		.file 5 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
+ARM GAS  /var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f0xx_it.c
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:19     .text.NMI_Handler:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:25     .text.NMI_Handler:00000000 NMI_Handler
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:42     .text.HardFault_Handler:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:48     .text.HardFault_Handler:00000000 HardFault_Handler
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:65     .text.SVC_Handler:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:71     .text.SVC_Handler:00000000 SVC_Handler
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:85     .text.PendSV_Handler:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:91     .text.PendSV_Handler:00000000 PendSV_Handler
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:105    .text.SysTick_Handler:00000000 $t
-/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//ccDt3gAk.s:111    .text.SysTick_Handler:00000000 SysTick_Handler
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:19     .text.NMI_Handler:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:25     .text.NMI_Handler:00000000 NMI_Handler
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:42     .text.HardFault_Handler:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:48     .text.HardFault_Handler:00000000 HardFault_Handler
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:65     .text.SVC_Handler:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:71     .text.SVC_Handler:00000000 SVC_Handler
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:85     .text.PendSV_Handler:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:91     .text.PendSV_Handler:00000000 PendSV_Handler
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:105    .text.SysTick_Handler:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:111    .text.SysTick_Handler:00000000 SysTick_Handler
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:132    .text.EXTI4_15_IRQHandler:00000000 $t
+/var/folders/pr/rxj89cp91fg33971fxp66g_r0000gn/T//cc3lVmIE.s:138    .text.EXTI4_15_IRQHandler:00000000 EXTI4_15_IRQHandler
 
 UNDEFINED SYMBOLS
 HAL_IncTick
+HAL_GPIO_EXTI_IRQHandler
